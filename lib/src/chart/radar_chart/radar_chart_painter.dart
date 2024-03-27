@@ -64,8 +64,8 @@ class RadarChartPainter extends BaseChartPainter<RadarChartData> {
 
     drawGrids(canvasWrapper, holder);
     drawTicks(context, canvasWrapper, holder);
-    drawTitles(context, canvasWrapper, holder);
     drawDataSets(canvasWrapper, holder);
+    drawTitles(context, canvasWrapper, holder);
   }
 
   @visibleForTesting
